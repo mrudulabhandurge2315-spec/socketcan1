@@ -626,17 +626,3 @@ Additional applications demonstrate message filtering, unknown-message handling,
 The implementation provides practical experience with Linux socket programming, CAN frame structures, network monitoring and ECU communication, forming a foundation for future automotive embedded systems development.
 
 ---
-
-## 12. GitHub Repository
-
-**Suggested repository name:**
-
-`socketcan-automotive-communication`
-
-**Suggested repository description:**
-
-Software-only CAN and CAN FD communication using Linux SocketCAN and Virtual CAN (vcan0), featuring multiple ECU nodes, real-time dashboard monitoring, traffic logging, message filtering and diagnostic testing.
-
-**Repository topics:**
-
-`socketcan` `can-bus` `can-fd` `automotive` `embedded-systems` `linux` `c-programming` `virtual-can` `ecu`
