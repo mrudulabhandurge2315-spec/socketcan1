@@ -101,26 +101,7 @@ This provides a common interface for applications to transmit, receive, filter a
 
 The project uses a virtual CAN network to connect multiple software-based ECUs.
 
-```text
-                 Ubuntu Linux / WSL2
-                         |
-                    SocketCAN
-                         |
-                      vcan0
-                         |
-             +-----------+-----------+
-             |                       |
-        Vehicle ECU              CAN Network
-         (Sender)                    |
-             |              +--------+--------+
-             |              |                 |
-        CAN Messages    Dashboard ECU     Logger ECU
-                        (Receiver)        (Receiver)
-                            |                 |
-                      Live Display       can_log.csv
-                            |
-                      Vehicle Data
-```
+<img width="1107" height="713" alt="image" src="https://github.com/user-attachments/assets/8809322f-2dae-41d2-a849-822962bd65a3" />
 
 Additional test applications:
 
